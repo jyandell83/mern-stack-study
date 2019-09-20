@@ -4,6 +4,10 @@ const app = express();
 
 require('./db/db');
 
+app.use(express.json({
+    extended: false
+}));
+
 app.get('/', (req,res) =>  res.send('Hello, Jeremy'));
 
 

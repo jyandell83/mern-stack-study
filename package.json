@@ -1,0 +1,26 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Social network",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyandell83/mern-stack-study.git"
+  },
+  "author": "Jeremy Yandell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyandell83/mern-stack-study/issues"
+  },
+  "homepage": "https://github.com/jyandell83/mern-stack-study#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1"
+  }
+}

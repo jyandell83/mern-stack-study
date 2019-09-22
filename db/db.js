@@ -5,7 +5,8 @@ const connectionString = 'mongodb://localhost/dev';
 
 mongoose.connect(connectionString, {
   useNewUrlParser: true,
-  useUnifiedTopology: true 
+  useUnifiedTopology: true,
+  useCreateIndex: true
 });
 
 mongoose.connection.on('connected', () => {
